@@ -1,4 +1,4 @@
-# Pratikum 9 - Framework Lanjutan (Modul Login)
+# Praktikum 9 - Framework Lanjutan (Modul Login)
 
 ## Persiapan 
 
@@ -218,15 +218,21 @@ Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modu
 
     `<a href="<?= base_url('/admin/logout');?>">Logout</a>`
 
+![Gambar 7](ss/7.png)
+
+
 * Dan Tambahkan route logout dengan cara ke direktori **app/Config/Routes.php** lalu tambahkan kode berikut.
 
     `$routes->add('logout', 'User::logout');`
+
+![Gambar 8](ss/8.png)
+
 
 ## H. Percobaan Akses Menu Admin
 
 * Buka url http://localhost:8080/admin/artikel pada browser.
 
-![Gambar 7](ss/7.png)
+![Gambar 9](ss/9.png)
 
 
 ## Terimakasih!
