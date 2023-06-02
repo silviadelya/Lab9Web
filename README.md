@@ -204,7 +204,7 @@ Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modu
 
 ## G. Fungsi Logout
 
-* Tambahkan method logout pada Controllers User seperti berikut:
+* Tambahkan method logout pada **Controllers/User.php** seperti berikut:
 
 ```php
     public function logout()
